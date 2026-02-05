@@ -19,6 +19,8 @@ import { defaultFavicons } from "../constants/icon";
 import type { Favicon } from "../types/config";
 import { pathsEqual, url } from "../utils/url-utils";
 import "katex/dist/katex.css";
+import { Image } from "astro:assets";
+import backgroundImage from "../assets/images/background.png";
 
 interface Props {
 	title?: string;
@@ -151,6 +153,17 @@ const bannerOffset =
 	<body class=" min-h-screen transition " class:list={[{"lg:is-home": isHomePage, "enable-banner": enableBanner}]}
 		  data-overlayscrollbars-initialize
 	>
+		<!-- Global Fullscreen Background Image -->
+		<div class="fixed inset-0 z-0 w-full h-full overflow-hidden pointer-events-none">
+			<Image
+				src={backgroundImage}
+				alt="Background"
+				class="w-full h-full object-cover"
+				loading="eager"
+			/>
+			<div class="absolute inset-0 bg-black/5 dark:bg-black/30"></div>
+		</div>
+
 		<ConfigCarrier></ConfigCarrier>
 		<slot />
 
