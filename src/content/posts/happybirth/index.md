@@ -7,6 +7,7 @@ tags: []
 category: ''
 draft: false 
 lang: ''
+series: "测试"
 ---
 :::note[致我和“它”的生日]
 和屏幕前的你们

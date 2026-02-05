@@ -1,6 +1,6 @@
 # About
 
-Hi，可以叫我 <b><font color=#67a1eb >Panda君</font></b> 或者 <b><font color=#67a1eb >Panda35064</font></b>
+Hi，可以叫我 **<span style="color: #67a1eb;">Panda君</span>** 或者 **<span style="color: #67a1eb;">Panda35064</span>**
   
 正如所见，此站为**个人Blog(博客)**，使用 [Astro](https://astro.build/) 中 [Fuwari](https://github.com/saicaca/fuwari) 主题建站。  
 文章内使用 [Twikoo](https://twikoo.js.org/) 接入评论区
