@@ -1,7 +1,7 @@
 ---
 title: 个人 Blog 介绍
 published: 2026-02-06
-description: ''
+description: '第一篇 Blog'
 image: ''
 tags: []
 category: ''
