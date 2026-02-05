@@ -119,3 +119,7 @@
     }
     
 }
+
+.link {
+        @apply transition rounded-md p-1 -m-1 expand-animation;
+    }
