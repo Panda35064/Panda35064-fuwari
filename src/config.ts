@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
 	lang: "zh_CN", // 语言代码，例如 'en', 'zh_CN', 'ja' 等
 	themeColor: {
 		hue: 250, // 主题颜色的默认色调，范围 0 到 360。例如 红色: 0, 青色: 200, 青蓝色: 250, 粉色: 345
-		fixed: true, // 隐藏访客的主题颜色选择器
+		fixed: false, // 隐藏访客的主题颜色选择器
 	},
 	banner: {
 		enable: false,
