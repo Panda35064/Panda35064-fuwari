@@ -5,7 +5,7 @@ description: ''
 image: 'cover1.png'
 tags: []
 category: ''
-draft: false 
+draft: true 
 lang: ''
 series: "测试"
 ---
