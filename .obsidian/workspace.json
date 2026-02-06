@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1ae083b11a5653c",
+        "id": "1fa1a8f4ceb05c64",
         "type": "tabs",
         "children": [
           {
-            "id": "5485f05a8854e030",
+            "id": "1c2b84daadbf0b09",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#入库的游戏想和朋友联机，需下载联机补丁，利用tag:#入库的游戏想和朋友联机，需下载联机补丁，利用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,22 +184,25 @@
       "bases:新建数据库": false
     }
   },
-  "active": "5485f05a8854e030",
+  "active": "1c2b84daadbf0b09",
   "lastOpenFiles": [
-    "src/assets/images/steamtools-3.png",
-    "src/assets/images/steamtools-2.png",
-    "src/assets/images/steamtools-1.png",
-    "src/content/posts/Steamtools/steamtools-3.png",
-    "src/content/posts/Steamtools/Steamtools_User-Guide/steamtools-3.png",
+    "src/assets/images/steamtools/steamtools-9.png",
+    "src/assets/images/steamtools/屏幕截图 2026-02-06 174950.png",
+    "src/assets/images/steamtools/steamtools-8.png",
+    "src/assets/images/steamtools/steamtools-6.png",
+    "src/assets/images/steamtools/steamtools-5.png",
+    "src/assets/images/steamtools/steamtools-4.png",
+    "src/assets/images/steamtools/steamtools-3.png",
+    "src/assets/images/steamtools/steamtools-2.png",
+    "src/assets/images/steamtools/steamtools-1.png",
+    "src/assets/images/steamtools/steamtools-7.png",
+    "src/assets/images/steamtools",
+    "src/assets/images/新建文件夹",
+    "src/assets/images/steamtools-7.png",
+    "[篡改猴.md",
+    "src/content/posts/Steamtools/Steamtools_User-Guide.md",
     "src/content/posts/Steamtools/Steamtools_User-Guide",
     "src/content/posts/Steamtools/新建文件夹",
-    "src/content/posts/Steamtools/28af45be-2d26-48ee-b9c4-ac2cbf657c53.png",
-    "src/content/posts/Steamtools/屏幕截图 2026-02-06 145415.png",
-    "src/content/posts/Steamtools/steamtools-2.png",
-    "src/content/posts/Steamtools/屏幕截图 2026-02-06 145149.png",
-    "src/content/posts/Steamtools/steamtools-1.png",
-    "64b948f6845236f84efe79d366f8fddc.png",
-    "src/content/posts/Steamtools/Steamtools_User-Guide.md",
     "src/content/posts.md",
     "src/content/spec/about.md",
     "src/content/posts/about.md",
