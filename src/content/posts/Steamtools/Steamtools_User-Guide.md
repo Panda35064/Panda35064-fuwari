@@ -16,7 +16,7 @@ series: Steam学习版入库及联机
  **可以各大平台搜下假入库风险后抉择。**
 :::
 :::note[前言]
-**此工具可以使未购买的游戏成功入库，达到(` 自欺欺人 `)的效果**     
+**此工具可以使未购买的游戏成功入库，达到(` 自欺欺人 `)的效果**
 **建议多支持一下正版捏~**
 :::
 
@@ -53,10 +53,12 @@ series: Steam学习版入库及联机
 ![安装Steam之神](../../../assets/images/steamtools/steamtools-5.png)
 
 ### 2.2 进入Steam获取游戏下载清单
+
 打开[Steam网页端](https://store.steampowered.com/)登录下，这里可能会弹“试图访问跨源资源”，`临时允许`即可，嫌烦的话可以选择`总是允许`。![安装Steam之神](../../../assets/images/steamtools/steamtools-6.png)
 登录完成后，这里我们随便入库一个游戏试试，如骗子酒馆，这边我们可以看到上面有一个`下载清单`按钮，点击会下载一个压缩包。
 ![下载游戏清单](../../../assets/images/steamtools/steamtools-7.png)
 下载完成解压后会得到一个这样的文件夹，包含以下文件，有了这几个文件即可免Steam校验直接下载：
+
 ```
 ManifestHub-3097560
 ├─ 3097560.json
@@ -64,7 +66,9 @@ ManifestHub-3097560
 ├─ 3097561_8581324083662600292.manifest
 └─ key.vdf
 ```
+
 ## 3. 入库游戏并下载启动
+
 鼠标拖动选择解压出来的文件，拖到SteamTools悬浮窗，等待一会即可入库成功。
 ![入库](../../../assets/images/steamtools/steamtools-8.png)
 再重新右键一下SteamTools重启Steam，即可正常下载游玩，效果如图

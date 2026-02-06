@@ -25,6 +25,7 @@ export const th: Translation = {
 	[Key.postsCount]: "โพสต์",
 
 	[Key.themeColor]: "สีของธีม",
+	[Key.panelOpacity]: "ความโปร่งใสของแผง",
 
 	[Key.lightMode]: "สว่าง",
 	[Key.darkMode]: "มืด",

@@ -225,7 +225,14 @@ import {
 	// SizeObserverPlugin,
 	// ClickScrollPlugin
 } from 'overlayscrollbars';
-import {getHue, getStoredTheme, setHue, setTheme} from "../utils/setting-utils";
+import {
+  getHue,
+  getStoredTheme,
+  setHue,
+  setTheme,
+  getOpacity,    // 👈 新增
+  setOpacity     // 👈 新增
+} from "../utils/setting-utils";
 import {pathsEqual, url} from "../utils/url-utils";
 import {
 	BANNER_HEIGHT,
@@ -309,6 +316,11 @@ function loadHue() {
 	setHue(getHue())
 }
 
+// 👇 新增：加载透明度设置
+function loadOpacity() {
+  setOpacity(getOpacity())
+}
+
 function initCustomScrollbar() {
 	const bodyElement = document.querySelector('body');
 	if (!bodyElement) return;
@@ -390,6 +402,7 @@ function init() {
 	// disableAnimation()()		// TODO
 	loadTheme();
 	loadHue();
+	loadOpacity();    // 👈 新增：加载透明度设置
 	initCustomScrollbar();
 	showBanner();
 }
