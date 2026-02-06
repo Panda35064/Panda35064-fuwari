@@ -21,6 +21,7 @@ import { pathsEqual, url } from "../utils/url-utils";
 import "katex/dist/katex.css";
 import { Image } from "astro:assets";
 import backgroundImage from "../assets/images/background.png";
+import mobileBackgroundImage from "../assets/images/mobile-background.png";
 
 interface Props {
 	title?: string;
@@ -153,16 +154,25 @@ const bannerOffset =
 	<body class=" min-h-screen transition " class:list={[{"lg:is-home": isHomePage, "enable-banner": enableBanner}]}
 		  data-overlayscrollbars-initialize
 	>
-		<!-- Global Fullscreen Background Image -->
-		<div class="fixed inset-0 z-0 w-full h-full overflow-hidden pointer-events-none">
-			<Image
-				src={backgroundImage}
-				alt="Background"
-				class="w-full h-full object-cover"
-				loading="eager"
-			/>
-			<div class="absolute inset-0 bg-black/5 dark:bg-black/30"></div>
-		</div>
+		<!-- 全局全屏背景图片：手机端换图，大屏用原图 -->
+<div class="fixed inset-0 z-0 w-full h-full overflow-hidden pointer-events-none">
+  <!-- 手机端背景图（<768px 显示，≥768px 隐藏）- 替换为你的手机版图片地址 -->
+  <Image
+    src={mobileBackgroundImage}  
+    alt="Mobile Background"
+    class="block md:hidden w-full h-full object-cover"  
+    loading="eager"
+  />
+  <!-- 大屏端背景图（<768px 隐藏，≥768px 显示）- 原有原图 -->
+  <Image
+    src={backgroundImage}         
+    alt="Background"
+    class="hidden md:block w-full h-full object-cover"  
+    loading="eager"
+  />
+  <!-- 原有黑色半透明遮罩：保留不动，同时覆盖两张背景图 -->
+  <div class="absolute inset-0 bg-black/30 dark:bg-black/50"></div>
+</div>
 
 		<ConfigCarrier></ConfigCarrier>
 		<slot />

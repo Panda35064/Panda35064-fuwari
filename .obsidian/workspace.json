@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "47844cc0aebeb965",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1ae083b11a5653c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5485f05a8854e030",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/posts/Steamtools/Steamtools_User-Guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Steamtools_User-Guide"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bae1a0a53aeedc3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "43abc6db801c2196",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f5b9d258f583653",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "75e474a9363c6a1a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f6770f694212bb78",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1b1ba64f3c949250",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd5512755131bca1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fe370562b32ab43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/posts/Steamtools/Steamtools_User-Guide.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Steamtools_User-Guide 的反向链接列表"
+            }
+          },
+          {
+            "id": "2ee702f32444b209",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/posts/Steamtools/Steamtools_User-Guide.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Steamtools_User-Guide 的出链列表"
+            }
+          },
+          {
+            "id": "770853f84da2ac17",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8505a85dc9c5c0ce",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "dbb70a6c72936ddc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/content/posts/Steamtools/Steamtools_User-Guide.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Steamtools_User-Guide 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "5485f05a8854e030",
+  "lastOpenFiles": [
+    "src/assets/images/steamtools-3.png",
+    "src/assets/images/steamtools-2.png",
+    "src/assets/images/steamtools-1.png",
+    "src/content/posts/Steamtools/steamtools-3.png",
+    "src/content/posts/Steamtools/Steamtools_User-Guide/steamtools-3.png",
+    "src/content/posts/Steamtools/Steamtools_User-Guide",
+    "src/content/posts/Steamtools/新建文件夹",
+    "src/content/posts/Steamtools/28af45be-2d26-48ee-b9c4-ac2cbf657c53.png",
+    "src/content/posts/Steamtools/屏幕截图 2026-02-06 145415.png",
+    "src/content/posts/Steamtools/steamtools-2.png",
+    "src/content/posts/Steamtools/屏幕截图 2026-02-06 145149.png",
+    "src/content/posts/Steamtools/steamtools-1.png",
+    "64b948f6845236f84efe79d366f8fddc.png",
+    "src/content/posts/Steamtools/Steamtools_User-Guide.md",
+    "src/content/posts.md",
+    "src/content/spec/about.md",
+    "src/content/posts/about.md",
+    "src/content/posts/happybirth/index.md",
+    "src/content/posts/Steamtools/6.ico",
+    "src/content/posts/Steamtools/favicon.ico",
+    "src/content/posts/Steamtools",
+    "public/template/template.md",
+    "public/template",
+    "public/新建文件夹",
+    "public/template.md",
+    "src/content/posts/未命名.md",
+    "public/未命名.md",
+    "src/content/posts/happybirth/11.md"
+  ]
+}
