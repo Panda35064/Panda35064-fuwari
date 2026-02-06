@@ -44,7 +44,7 @@ export const siteConfig: SiteConfig = {
 };
 
 export const navBarConfig: NavBarConfig = {
-	links: [LinkPreset.Home, LinkPreset.Archive, LinkPreset.About],
+	links: [LinkPreset.Home, LinkPreset.Archive, LinkPreset.About], // 可在 src/constants/link-presets.ts 内修改跳转页面
 };
 
 export const profileConfig: ProfileConfig = {
